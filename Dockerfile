@@ -1,5 +1,5 @@
 
-FROM openjdk:17               # FROM<image>
+FROM eclipse-temurin:17-jdk-alpine            # FROM<image>
 VOLUME /tmp                   # Temporary location to run
 EXPOSE 8080                   # Provide port number
 ADD target/ThienPhuoc31-0.0.1-SNAPSHOT.jar ThienPhuoc31-0.0.1-SNAPSHOT.jar 
